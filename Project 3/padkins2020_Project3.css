@@ -1,0 +1,83 @@
+:root {
+	--Chez: #b375f9;
+	--Lilypop: #ef97e6;
+	--Ruben: #f74dcf;
+	--Levi: #559df4;
+	--Karat: #f5a330;
+	--Bungalow: #26e7cd;
+	--Bucyt: #2ae3f8;
+	--Multi: #e9eccd;
+}
+
+body{
+	font-size: 50px;
+	font-family: 'Franklin Gothic Medium';
+	color: rgb(46, 51, 53);
+	background-color: lightgray;
+}
+.question{
+	font-family: 'Franklin Gothic Medium';
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(46, 51, 53);
+	background-color: rgb(233, 236, 237);
+	padding: 20px;
+}
+.answers {
+	font-family: 'Franklin Gothic Medium';
+	font-size: 25px;
+	color: rgb(46, 51, 53);
+  	margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: 'Franklin Gothic Medium';
+	font-size: 20px;
+	background-color: rgb(126, 127, 127);
+	color: rgb(30, 31, 33);
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#submit:hover{
+	background-color: rgb(172, 174, 174);
+	color:rgb(46, 51, 53)
+}
+
+#grid {/*Changed grid-template-columns from 5 auto's to 3 1fr's*/
+	display: grid;
+	padding: 5px;
+	width: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	justify-content: space-around;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#results {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	font-family: 'Franklin Gothic Medium';
+	font-size: 30px;
+	color: rgb(30, 31, 33);
+}
+#head {
+	font-family: 'Franklin Gothic Medium';
+    color: rgb(46, 51, 53);
+    background-color: rgb(172, 174, 174);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+	border-top: 10px;
+}
+head {
+	background-color: rgb(172, 174, 174);
+}
+.responsive {/*Added this class*/
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* IE8 quirk */
+}
