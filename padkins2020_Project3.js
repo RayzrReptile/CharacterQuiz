@@ -13,13 +13,13 @@ function domLoaded () {
   const resultsContainer = document.getElementById('results');
   const submitButton = document.getElementById('submit');
   const characters = {
-      Chez: [0, "P3Chez.png"],
-      Lilypop: [1, "P3Lilypop.png"],
-      Ruben: [2, "P3Ruben.png"],
-      Levi: [3, "P3Levi.png"],
-      Karat: [4, "P3Karat.png"],
-      Bungalow: [5, "P3Bungalow.png"],
-      Bucyt: [6, "P3Bucyt.png"]
+      Chez: [0, "./assets/P3Chez.png"],
+      Lilypop: [1, "./assets/P3Lilypop.png"],
+      Ruben: [2, "./assets/P3Ruben.png"],
+      Levi: [3, "./assets/P3Levi.png"],
+      Karat: [4, "./assets/P3Karat.png"],
+      Bungalow: [5, "./assets/P3Bungalow.png"],
+      Bucyt: [6, "./assets/P3Bucyt.png"]
   };
   const myQuestions = [
     {
